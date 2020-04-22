@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+h1{
+    color: aqua;
+}
+    
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+
+
+
+nav { 
+text-decoration: none;
+    //text-align:center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+
+}
+
+body {
+    background-color: antiquewhite;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    background-image: url("../images/mountain.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+
+    padding-bottom: 160px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 160px;
+    
+    @media only screen and (max-width: 600px) {
+        body {
+            background-color: lightblue
+        }
+    }
+    
+
+}
+
+
+
+
+h2 {
+
+    color: deeppink;
+}
+
+p,
+a {
+    color: deeppink;
+
+}
+
+
+h1,
+h2 {
+    font-family: cursive;
+}
+
+.homepagelist {
+    color: #8f9b93;
+}
+
+
+nav ul {
+    display:flex; 
+}
+
+nav li {
+    flex: 1 1 0; 
+    
+}
+
+
+
