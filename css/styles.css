@@ -1,33 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-
-</head>
-
-h1{
-    color: aqua;
-}
-    
+html {
+    color: #ccc;
     box-sizing: border-box;
     margin: 0;
 }
 
 
-<div class="flex-container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-</div>
+h1{
+    color: aqua;
+}
+
+
+  
 
 
 
-nav { 
+
+nav{ 
 text-decoration: none;
-    //text-align:center;
     color: #fff;
     display: block;
     padding: 10px;
@@ -48,14 +37,43 @@ body {
     padding-right: 160px;
     padding-top: 160px;
     
-    @media only screen and (max-width: 600px) {
-        body {
+}
+    
+form p{
+    display: flex;
+    margin-bottom: 1em;
+}
+    
+form label {
+    flex-basis: 33%;
+}
+    
+form input, textarea, select {
+    flex:1;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+    
+form select {
+    text-align: center;
+}
+
+    @media only screen and (max-width: 50rem) {
+        body
+        form p {
+            flex-direction: column;
             background-color: lightblue
+        }
+        form input, textarea {
+            margin: 2px 0;
+        }
+        form select {
+            margin:0;
         }
     }
     
 
-}
+
 
 
 
